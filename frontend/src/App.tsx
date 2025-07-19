@@ -1,11 +1,11 @@
+import Board from './components/Board';
+
 function App() {
     return (
-        <div>
-            <h1 className="text-3xl font-bold text-blue-600">
-                KlaroBoard Frontend
-            </h1>
-        </div>
-    )
+        <main className="bg-gray-100 min-h-screen">
+            <Board />
+        </main>
+    );
 }
 
-export default App
+export default App;
